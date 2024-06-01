@@ -1,0 +1,75 @@
+h1{
+    text-align: center;
+     color: white;
+}
+#add{
+ display: flex;
+justify-content: center;
+align-items: center;
+}
+body{
+    background-color: #696969;
+}
+#area{
+    height: 30px;
+    border-radius: 5px;
+    border-style: none;
+    width: 200px;
+}
+#btn{
+    height: 32px;
+    border-radius: 5px;
+    border-style: none;
+    width: 50px;
+    background-color: rgb(72, 180, 72);
+    font-weight: bolder;
+    font-size: medium;
+    color: white;
+    cursor:pointer;
+}
+#list{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+align-content: center;
+margin-top: 20px;
+/* position:static ; */
+}
+.tasks{
+    background-color: white;
+    margin-bottom: 15px;
+    width:350px;
+    height: 35px;
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: 700;
+    text-align:end;
+}
+.del{
+    margin-left: 20px;
+    background-color: orangered;
+    color: white;
+    font-weight: bold;
+    border-style: none;
+    cursor: pointer;
+}
+.up{
+    margin-left: 5px;
+    border-style: none;
+    height: 25px ;
+    width: 32px;
+    background-color: blue;
+    border-radius: 3px;
+}
+.down{
+    margin-left: 3px;
+    border-style: none;
+    height: 25px ;
+    width: 32px;
+    background-color: blue;
+    border-radius: 3px;
+}
+button{
+    cursor: pointer;
+}
