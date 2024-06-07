@@ -12,5 +12,29 @@ min-height: 100vh;
     flex-direction: row;
     justify-content: center;
     align-content: center;
-    font-size: xxx-large;
+    font-size: 65px;
+    height: 87px ;
+    font-weight:bolder;
 }
+#timer{
+    margin: 0px;
+}
+
+
+#clock{
+    color: #fff; /* Set the text color to white */
+    text-shadow:
+      0 0 4px #0f0,  /* Inner green shadow */
+      0 0 10px #0f0, /* Green glow */
+      0 0 20px #0f0,
+      0 0 30px #0f0,
+      0 0 0px #0f0; }
+
+ .daaaa     {
+        color: #fff; /* Set the text color to white */
+        text-shadow:
+          0 0 4px #0f0,  /* Inner green shadow */
+          0 0 10px #0f0, /* Green glow */
+          0 0 20px #0f0,
+          0 0 30px #0f0,
+          0 0 0px #0f0; }
