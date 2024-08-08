@@ -17,7 +17,7 @@ function Indexbox({
         <input type="number" 
           id='button'
          placeholder='Amount'
-         readOnly={label === "to"}
+         readOnly={label === "To"}
          className='w-20 pl-3 my-4 rounded md:w-1/2 bg-slate-300'
          value={amount}
          
