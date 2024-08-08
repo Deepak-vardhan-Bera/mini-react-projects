@@ -3,6 +3,8 @@ import React, { useState } from 'react';
 function Interface(){
          const [color,setcolour]=useState("ffffff")
 
+db.students.insertOne({"name":"navya","age":18,"branch":"cse", }) 
+
    const colorchanger=(e)=>{
     setcolour(e.target.value)
     console.log(typeof color);
