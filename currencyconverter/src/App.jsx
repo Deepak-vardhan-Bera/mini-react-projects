@@ -70,7 +70,7 @@ const [convertedamount, setconvertedamount] = useState("")
         <button type="submit"
         className='w-72 md:w-[27rem] text-2xl md:h-10 h-20 font-bold absolute left-1/2 -translate-x-1/2 -translate-y-1/2 border-2 border-white rounded-md bg-blue-600 text-white px-2 py-0.5'
         >
-          {`convert ${from.toUpperCase()} to ${to.toUpperCase()}`}
+          {`Convert ${from.toUpperCase()} to ${to.toUpperCase()}`}
         </button>
       {console.log(amount)}
       </form>
